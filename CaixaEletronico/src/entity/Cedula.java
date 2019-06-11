@@ -1,11 +1,12 @@
 package entity;
 
-import java.util.List;
-
 public class Cedula {
 	private double saldo;
 	private double vlrASacar;
 	
+	public Cedula() {
+		this.vlrASacar = 0.0;
+	}
 	public Cedula(double vlrASacar) {
 		this.vlrASacar = vlrASacar;
 	}
