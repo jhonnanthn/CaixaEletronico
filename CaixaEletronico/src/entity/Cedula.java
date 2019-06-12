@@ -3,6 +3,7 @@ package entity;
 public class Cedula {
 	private double saldo;
 	private double vlrASacar;
+	private String resultado;
 	
 	public Cedula() {
 		this.vlrASacar = 0.0;
@@ -10,7 +11,13 @@ public class Cedula {
 	public Cedula(double vlrASacar) {
 		this.vlrASacar = vlrASacar;
 	}
-
+	
+	public String getResultado() {
+		return resultado;
+	}
+	public void setResultado(String resultado) {
+		this.resultado = resultado;
+	}
 	public double getSaldo() {
 		return saldo;
 	}
